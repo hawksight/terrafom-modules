@@ -1,6 +1,6 @@
 variable "vcp_namespace" {
   type        = string
-  default     = "venafi-agent"
+  default     = "venafi"
   description = "The namespace where the agent is deployed"
 }
 
