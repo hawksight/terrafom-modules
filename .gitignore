@@ -1,0 +1,6 @@
+**/plan
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfstate.backup
+**/.terraform
+.vscode
