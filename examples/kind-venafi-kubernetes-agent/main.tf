@@ -7,7 +7,7 @@ resource "kind_cluster" "default" {
 
 # --- 2) Prepare TLSPC svc account crednetial for the agent
 module "venafi-service-account" {
-  source = "../../terraform-modules/venafi-service-account"
+  source = "../../modules/venafi-service-account"
 
   vcp_namespace    = "venafi-agent"
   vcp_team_id      = "d5b8eff0-50af-11ee-91be-f942c7e4bfd2"
